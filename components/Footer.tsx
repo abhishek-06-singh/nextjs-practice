@@ -21,13 +21,13 @@ const FooterColumn = ({ title, links }: ColumnProps) => (
 );
 
 const Footer = () => (
-  <section className="flexStart footer">
+  <section className="flexStart flex-col paddings w-full gap-20 bg-gradient-to-r from-stone-50 to-violet-100 mb-0">
     <div className="flex flex-col gap-12 w-full">
       <div className="flex items-start flex-col">
         <Image src="/logo-purple.png" width={216} height={38} alt="logo" />
 
         <p className="text-start text-sm font-normal mt-5 max-w-xs">
-          Flexibble is the world&apos;s leading community for creatives to
+          ShotCraft is the world&apos;s leading community for creatives to
           share, grow, and get hired.
         </p>
       </div>
